@@ -10,6 +10,7 @@
 	<context:component-scan base-package="com"></context:component-scan>
 	
 3.写一个controller基于注解：
+<textarea>
 @Controller
 public class HelloController {
 	//返回到index.jsp	
@@ -20,6 +21,7 @@ public class HelloController {
 		return "index";
 	}
 }
+</textarea>
 其中：参数userName对应hello.jsp的表单请求参数，
 	返回index对应view文件夹index.jsp文件。
 
